@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital@1&display=swap");
 
 .box {
   height: 36px;
@@ -97,67 +97,124 @@ nav {
 /* Main */
 
 main {
-    font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
-main>div{
-    padding-top: 60px;
+main > div {
+  padding-top: 60px;
 }
-#logo{
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(108, 108, 212);
+#logo {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(108, 108, 212);
 }
-#logo>svg{
-    height: 100%;
-    width: 100%;
+#logo > svg {
+  height: 100%;
+  width: 100%;
 }
-main>div>div>h1{
-    color: rgb(6, 6, 133);
-    font-weight: 900;
-    margin-left: 10px;
+main > div > div > h1 {
+  color: rgb(6, 6, 133);
+  font-weight: 900;
+  margin-left: 10px;
 }
-main>div>p{
-    color: rgba(128, 128, 128, 0.559);
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 20px;
+main > div > p {
+  color: rgba(128, 128, 128, 0.559);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
 }
-#menu>button{
-    border: none;
-    background: transparent;
-    width: 300px;
-    /* background-color: blue; */
-    color: rgba(128, 128, 128, 0.744);
-    position: relative;
-    margin-top: 5px;
-    padding: 10px;
+#menu > button {
+  border: none;
+  background: transparent;
+  width: 300px;
+  /* background-color: blue; */
+  color: rgba(128, 128, 128, 0.744);
+  position: relative;
+  margin-top: 5px;
+  padding: 10px;
 }
-#menu>button:hover{
-    background-color: rgba(128, 128, 128, 0.137);
-    border-radius: 10px;
-    .menu-button-word{
-        color: black;
-    }
+#menu > button:hover {
+  background-color: rgba(128, 128, 128, 0.137);
+  border-radius: 10px;
+  .menu-button-word {
+    color: black;
+  }
 }
-.icon{
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.icon>svg{
-    width: 100%;
-    height: 100%;
+.icon > svg {
+  width: 100%;
+  height: 100%;
 }
-#menu>button>span{
-    position: absolute;
-    right: 10px;
-    /* background-color: red; */
+#menu > button > span {
+  position: absolute;
+  right: 10px;
+  /* background-color: red; */
 }
-.menu-button-word{
-    margin-inline: 10px;
+.menu-button-word {
+  margin-inline: 10px;
+}
+
+/* Footer */
+
+#comp-1-left {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  border-radius: 9px 0px 0px 9px;
+}
+#comp-1-middle {
+  height: 36px;
+  width: 60px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: transparent;
+  position: fixed;
+  left: 51px;
+  bottom: 16px;
+}
+#comp-1-right {
+  position: fixed;
+  left: 111px;
+  bottom: 16px;
+  border-radius: 0px 9px 9px 0px;
+}
+#comp-2-left {
+  position: fixed;
+  left: 159px;
+  bottom: 16px;
+  border-radius: 9px 0px 0px 9px;
+}
+#comp-2-right {
+  position: fixed;
+  left: 194px;
+  bottom: 16px;
+  border-radius: 0px 9px 9px 0px;
+}
+#comp-3 {
+  position: fixed;
+  right: 65px;
+  bottom: 16px;
+  padding: 8px;
+  border: none;
+  color:rgb(108, 108, 212);;
+}
+#comp-3:hover{
+    background :transparent;
+}
+#comp-4 {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  border: none;
 }
