@@ -102,14 +102,28 @@ main {
 main>div{
     padding-top: 60px;
 }
-main>div>h1{
+#logo{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(108, 108, 212);
+}
+#logo>svg{
+    height: 100%;
+    width: 100%;
+}
+main>div>div>h1{
     color: rgb(6, 6, 133);
     font-weight: 900;
+    margin-left: 10px;
 }
 main>div>p{
     color: rgba(128, 128, 128, 0.559);
     font-weight: 600;
     font-size: 20px;
+    margin-top: 20px;
 }
 #menu>button{
     border: none;
