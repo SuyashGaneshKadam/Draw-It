@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital@1&display=swap");
 
+#root {
+  width: 100vw ;
+  height: 100vh;
+  overflow: hidden;
+  position: relative ;
+}
 .box {
   height: 36px;
   width: 36px;
@@ -14,12 +20,12 @@
   background-color: rgba(128, 128, 128, 0.137);
 }
 nav {
-  padding: 16px;
-}
-#nav-left {
+  padding: 10px;
   position: absolute;
-  left: 16px;
-  top: 16px;
+  z-index: 1;
+  width: 100vw;
+  margin: auto;
+  /* background-color: aqua; */
 }
 #nav-middle-top {
   /* background-color: blue; */
@@ -46,19 +52,10 @@ nav {
   margin-inline: 3px;
   background-color: rgba(128, 128, 128, 0.537);
 }
-#nav-middle-bottom {
-  margin-top: 10px;
-}
-#nav-middle-bottom > p {
-  font-size: 11px;
-  color: rgba(128, 128, 128, 0.537);
-  font-weight: 500;
-}
+
 #nav-right-profile {
-  position: absolute;
-  right: 113px;
-  top: 16px;
   background-color: rgb(108, 108, 212);
+  margin-right: 10px;
 }
 #nav-right-profile:hover {
   background-color: rgb(99, 99, 193);
@@ -69,9 +66,6 @@ nav {
 #nav-right-library {
   height: 36px;
   width: 87px;
-  position: absolute;
-  right: 16px;
-  top: 16px;
   background: transparent;
   border-radius: 9px;
 }
@@ -100,6 +94,11 @@ nav {
 
 main {
   font-family: "Epilogue", sans-serif;
+  position: absolute;
+  width: 98vw;
+  height: 45vw;
+  margin: auto;
+  /* background-color: antiquewhite; */
 }
 main > div {
   padding-top: 60px;
@@ -164,6 +163,36 @@ main > div > p {
   margin-inline: 10px;
 }
 
+/* Sidebar */
+
+sidebar{
+  position: absolute;
+  /* height: 100px; */
+  /* background-color: tomato; */
+  top: 200px;
+  left: 10px;
+  box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.537);
+  border-radius: 10px;
+  padding: 5px;
+  display: none;
+}
+.display{
+  display: flex;
+  flex-direction: column;
+}
+sidebar>input{
+  margin-bottom: 10px;
+}
+sidebar>label{
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: rgb(103, 102, 102);
+}
+#width-selector{
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
 /* Footer */
 
 #comp-1-left {
@@ -219,4 +248,13 @@ main > div > p {
   right: 16px;
   bottom: 16px;
   border: none;
+}
+
+#canvas{
+  /* background-color: blueviolet; */
+}
+
+.button-active {
+  background-color: rgb(202, 202, 255);;
+  border-radius: 4px;
 }
