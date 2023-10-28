@@ -13,6 +13,7 @@ const actions = {
   arrow: true,
   square: false,
   circle: false,
+  triangle: false,
   line: false,
   pencil: false,
   eraser: false,
@@ -72,24 +73,3 @@ function resetCanvas() {
   history = [];
   historyIndex = -1;
 }
-
-// function onMouseDown(event) {
-//   previousPoint = [event.clientX, event.clientY];
-//   canvas.addEventListener("mousemove", onMouseMove);
-//   canvas.addEventListener("mouseup", onMouseUp);
-// }
-// function onMouseMove(event) {
-//   let currentPoint = [event.clientX, event.clientY];
-//   c.beginPath();
-//   c.moveTo(previousPoint[0], previousPoint[1]);
-//   c.lineTo(...currentPoint);
-//   c.strokeStyle = drawingColor;
-//   c.lineWidth = strokeWidth;
-//   c.globalAlpha = opacity;
-//   c.closePath();
-//   c.stroke();
-//   previousPoint = currentPoint;
-// }
-// function onMouseUp() {
-//   canvas.removeEventListener("mousemove", onMouseMove);
-// }
