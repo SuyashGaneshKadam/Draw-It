@@ -193,6 +193,10 @@ sidebar>label{
   border: solid 1px black;
   border-radius: 10px;
 }
+sidebar > button{
+  border: none;
+  background: transparent;
+}
 /* Footer */
 
 #comp-1-left {
@@ -220,13 +224,13 @@ sidebar>label{
   bottom: 16px;
   border-radius: 0px 9px 9px 0px;
 }
-#comp-2-left {
+#undo {
   position: fixed;
   left: 159px;
   bottom: 16px;
   border-radius: 9px 0px 0px 9px;
 }
-#comp-2-right {
+#redo {
   position: fixed;
   left: 194px;
   bottom: 16px;
@@ -250,11 +254,11 @@ sidebar>label{
   border: none;
 }
 
-#canvas{
-  /* background-color: blueviolet; */
-}
+/* #canvas{
+  background-color: blueviolet;
+} */
 
 .button-active {
-  background-color: rgb(202, 202, 255);;
+  background-color: rgb(188, 188, 249);
   border-radius: 4px;
 }
